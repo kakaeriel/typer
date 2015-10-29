@@ -20,7 +20,7 @@
 ##### Aplikasi itu 'laggy'. Kenapa? Bagaimana cara membuat animasi lebih 'smooth'?
 
 * Membuat animasi menjadi smooth, gunakan CSS Transition
-  ```sh
+  ```javascript
   $(this.el).css({position: 'absolute', 'transition': 'all 1s ease-out'});
   ```
 * Untuk meningkatkan performance : 
