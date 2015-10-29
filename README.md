@@ -19,8 +19,8 @@
 
 ##### Aplikasi itu 'laggy'. Kenapa? Bagaimana cara membuat animasi lebih 'smooth'?
 
-* Membuat animasi menjadi smooth, gunakan CSS Transition
-  ```sh
+* Untuk membuat animasi menjadi smooth, gunakan CSS Transition
+  ``` sh 
   $(this.el).css({position: 'absolute', 'transition': 'all 1s ease-out'});
   ```
 * Untuk meningkatkan performance : 
@@ -30,6 +30,8 @@
   -  Hapus CSS rules yang tidak di gunakan, check menggunakan Google Chrome Audits dan hapus menggunakan Grunt-Uncss. (https://github.com/addyosmani/grunt-uncss)
 
 ##### Aplikasi itu tidak akan jalan di salah satu 3 browser populer (Chrome, Firefox, Internet Explorer)? Kenapa? Solusinya hanya menghapus satu character di code, character yang mana?
+
+Saya mencoba menjalankan aplikasi di 3 browser tersebut, dan semua berjalan dengan lancar.
 * Google Chrome	46.0.2490.80	Running
 * Mozilla Firefox	41.0.2	Running
 * IE	11	Running
