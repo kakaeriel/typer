@@ -18,9 +18,8 @@
   - Docs : <http://api.jqueryui.com/>
 
 ##### Aplikasi itu 'laggy'. Kenapa? Bagaimana cara membuat animasi lebih 'smooth'?
-
 * Untuk membuat animasi menjadi smooth, gunakan CSS Transition
-  ``` sh 
+  ```sh 
   $(this.el).css({position: 'absolute', 'transition': 'all 1s ease-out'});
   ```
 * Untuk meningkatkan performance : 
